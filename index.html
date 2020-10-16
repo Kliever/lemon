@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lemon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <aside class="aside">
+    <div class="aside__inner">
+      <div class="aside__menu-btn">
+        <div class="aside__menu-btn-inner">
+          <div class="aside__btn-item aside__btn-item--1"></div>
+          <div class="aside__btn-item aside__btn-item--2"></div>
+          <div class="aside__btn-item aside__btn-item--3"></div>
+        </div>
+      </div>
+      <button class="aside__search-btn"></button>
+    </div>
+
+    <nav class="aside__menu">
+      <ul class="aside__menu-list" id="aside__menu-list">
+        <li class="aside__menu-item" data-menuanchor="main">
+          <a href="#main" class="aside__menu-link">Main</a>
+        </li>
+        <li class="aside__menu-item" data-menuanchor="development">
+          <a href="#development" class="aside__menu-link">Development</a>
+        </li>
+        <li class="aside__menu-item" data-menuanchor="choose">
+          <a href="#choose" class="aside__menu-link">Choose</a>
+        </li>
+        <li class="aside__menu-item" data-menuanchor="apps">
+          <a href="#apps" class="aside__menu-link">Apps</a>
+        </li>
+        <li class="aside__menu-item" data-menuanchor="contacts">
+          <a href="#contacts" class="aside__menu-link">Contact Us</a>
+        </li>
+
+        <li class="aside__menu-item">
+          <a href="#" class="aside__menu-link main-menu">About Us</a>
+        </li>
+        <li class="aside__menu-item">
+          <a href="#" class="aside__menu-link main-menu">Technologies</a>
+        </li>
+        <li class="aside__menu-item">
+          <a href="#" class="aside__menu-link main-menu">News</a>
+        </li>
+        <li class="aside__menu-item">
+          <a href="#" class="aside__menu-link main-menu">Portfolio</a>
+        </li>
+        <li class="aside__menu-item">
+          <a href="#" class="aside__menu-link main-menu">Contacts</a>
+        </li>
+
+      </ul>
+    </nav>
+  </aside>
+
+
+
+  <main id="fullpage">
+    <header class="header section" data-anchor='main'>
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <a class="logo" href="#">
+              <img src="images/logo.png" alt="">
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">About Us</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Technologies</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">News</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Portfolio</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link" href="#">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <h1 class="header-title">
+            We’re develop app games
+          </h1>
+          <a class="header__link" href="#">About Us</a>
+        </div>
+        <picture>
+          <source type="image/webp" srcset="images/header-img.webp">
+          <img class="header__bottom-img" src="images/header-img.png" alt="">
+        </picture>
+      </div>
+    </header>
+
+    <section class="development section" data-anchor='development'>
+      <div class="container">
+        <div class="development__inner">
+          <img class="development__img" src="images/development-img.jpg" alt="">
+          <div class="development__info">
+            <h4 class="title development__title">
+              development with love
+            </h4>
+            <p class="text development__text">
+              Lemon Tree Studio was founded in March of 2009 with a passion to craft elegant, easy-to-use applications
+              for
+              Apple's
+              iPhone. With our strong blend of design and development skills, we launched BugsShot in June of 2009 as
+              our
+              first
+              application, and will be rapidly bringing new applications and beautiful games to market.
+            </p>
+            <div class="development__info-items">
+              <div class="development__info-item">
+                <div class="development__info-icon">
+                  <img class="development__info-icon-img" src="images/responsive-icon.png" alt="">
+                </div>
+                <div class="development__info-descr">responsive</div>
+              </div>
+              <div class="development__info-item">
+                <div class="development__info-icon">
+                  <img class="development__info-icon-img" src="images/uniqueness-icon.png" alt="">
+                </div>
+                <div class="development__info-descr">uniqueness</div>
+              </div>
+              <div class="development__info-item">
+                <div class="development__info-icon">
+                  <img class="development__info-icon-img" src="images/support-icon.png" alt="">
+                </div>
+                <div class="development__info-descr">support 24/7</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="choose section" data-anchor='choose'>
+      <div class="container">
+        <div class="choose__inner">
+          <h3 class="title choose__title">
+            Why Choose Us
+          </h3>
+          <div class="choose__items">
+            <div class="choose__item">
+              <picture>
+                <source type="image/webp" srcset="images/choose-img-1.webp">
+                <img class="choose__item-img" src="images/choose-img-1.png" alt="">
+              </picture>
+              <div class="choose__item-descr">
+                we’re working since 2007
+              </div>
+            </div>
+            <div class="choose__item">
+              <picture>
+                <source type="image/webp" srcset="images/choose-img-2.webp">
+                <img class="choose__item-img" src="images/choose-img-2.png" alt="">
+              </picture>
+              <div class="choose__item-descr">
+                we’re develop for iphone, andriod
+              </div>
+            </div>
+            <div class="choose__item">
+              <picture>
+                <source type="image/webp" srcset="images/choose-img-3.webp">
+                <img class="choose__item-img" src="images/choose-img-3.png" alt="">
+              </picture>
+              <div class="choose__item-descr">
+                >250 000 000 download our apps
+              </div>
+            </div>
+            <div class="choose__item">
+              <picture>
+                <source type="image/webp" srcset="images/choose-img-4.webp">
+                <img class="choose__item-img" src="images/choose-img-4.png" alt="">
+              </picture>
+              <div class="choose__item-descr">
+                we’re working since 2007
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="apps section" data-anchor='apps'>
+      <div class="container">
+        <div class="apps__inner">
+          <picture>
+            <img class="apps__img" src="images/apps-img.png" alt="">
+          </picture>
+          <div class="apps__slider-wrapper">
+            <div class="apps__slider">
+              <div class="apps__slider-item">
+                <h3 class="title apps__slider-title">
+                  about our apps
+                </h3>
+                <ul class="apps__slider-rating">
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item">
+                  </li>
+                </ul>
+                <p class="text apps__slider-text">
+                  Lemon Tree Studio was founded in March of 2009 with a passion to craft elegant, easy-to-use
+                  applications
+                  for Apple's
+                  iPhone. With our strong blend of design and development skills, we launched BugsShot in June of 2009
+                  as
+                  our first
+                  application, and will be rapidly bringing new applications and beautiful games to market.
+                </p>
+                <div class="apps__slider-name">Alex Filimonov</div>
+                <div class="apps__slider-date">01/01/2015</div>
+              </div>
+              <div class="apps__slider-item">
+                <h3 class="title apps__slider-title">
+                  about our apps
+                </h3>
+                <ul class="apps__slider-rating">
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item">
+                  </li>
+                </ul>
+                <p class="text apps__slider-text">
+                  Lemon Tree Studio was founded in March of 2009 with a passion to craft elegant, easy-to-use
+                  applications
+                  for Apple's
+                  iPhone. With our strong blend of design and development skills, we launched BugsShot in June of 2009
+                  as
+                  our first
+                  application, and will be rapidly bringing new applications and beautiful games to market.
+                </p>
+                <div class="apps__slider-name">Alex Filimonov</div>
+                <div class="apps__slider-date">01/01/2015</div>
+              </div>
+              <div class="apps__slider-item">
+                <h3 class="title apps__slider-title">
+                  about our apps
+                </h3>
+                <ul class="apps__slider-rating">
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item apps__slider-rating-item--active">
+                  </li>
+                  <li class="apps__slider-rating-item">
+                  </li>
+                </ul>
+                <p class="text apps__slider-text">
+                  Lemon Tree Studio was founded in March of 2009 with a passion to craft elegant, easy-to-use
+                  applications
+                  for Apple's
+                  iPhone. With our strong blend of design and development skills, we launched BugsShot in June of 2009
+                  as
+                  our first
+                  application, and will be rapidly bringing new applications and beautiful games to market.
+                </p>
+                <div class="apps__slider-name">Alex Filimonov</div>
+                <div class="apps__slider-date">01/01/2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts section" data-anchor='contacts'>
+      <div class="contacts__wrapper">
+        <div class="container contacts__container">
+          <div class="contacts__inner">
+            <h3 class="title contacts__title">contact Us</h3>
+            <form class="contacts__form">
+              <div class="contacts__name-wrapper">
+                <label class="contacts__form-label contacts__form-label-name" for="name">Your name:</label>
+                <input class="contacts__name" type="text" name="name">
+              </div>
+              <div class="contacts__email-wrapper">
+                <label class="contacts__form-label contacts__form-label-email" for="email">Your email:</label>
+                <input class="contacts__email" type="text" name="email">
+              </div>
+              <div class="contacts__text-wrapper">
+                <label class="contacts__form-label contacts__form-label-text" for="text">Text:</label>
+                <textarea class="contacts__text" name="text" rows="3"></textarea>
+              </div>
+              <button class="send" type="submit">send message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer-copy">
+              Lemon Tree © 2015
+            </div>
+            <a class="footer__link" href="#">Welcome studio</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </main>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
